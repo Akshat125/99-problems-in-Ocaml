@@ -1,2 +1,4 @@
 # 99-problems-in-Ocaml
-Solution to the famous 99 problems + few bonus problems in ocaml 
+Problems 1-99 can be accessed through https://ocaml.org/problems
+
+##Bonus problems:
