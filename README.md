@@ -1,8 +1,8 @@
 # 99-problems-in-Ocaml
-Problems 1-99 can be accessed through https://ocaml.org/problems
+Problem statements 1-99 can be accessed through https://ocaml.org/problems
 
 ## Helpful Resources:
-
+ * []()
 
 ## Bonus problems:
 
