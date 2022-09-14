@@ -2,5 +2,5 @@
 let length_v1 l =
   let rec helper_method l acc = match l with 
       [] -> acc
-      | _::b -> helper_method b (acc+1)
+      | a::b -> helper_method b (acc+1)
   in helper_method l 0

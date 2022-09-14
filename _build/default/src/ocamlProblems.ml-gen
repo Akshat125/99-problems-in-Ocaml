@@ -1,0 +1,26 @@
+(** @canonical OcamlProblems.Task1 *)
+module Task1 = OcamlProblems__Task1
+
+
+(** @canonical OcamlProblems.Task2 *)
+module Task2 = OcamlProblems__Task2
+
+
+(** @canonical OcamlProblems.Task3 *)
+module Task3 = OcamlProblems__Task3
+
+
+(** @canonical OcamlProblems.Task4 *)
+module Task4 = OcamlProblems__Task4
+
+
+(** @canonical OcamlProblems.Task5 *)
+module Task5 = OcamlProblems__Task5
+
+
+(** @canonical OcamlProblems.Task6 *)
+module Task6 = OcamlProblems__Task6
+
+
+(** @canonical OcamlProblems.Task7 *)
+module Task7 = OcamlProblems__Task7
