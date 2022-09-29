@@ -24,3 +24,7 @@ module Task6 = OcamlProblems__Task6
 
 (** @canonical OcamlProblems.Task7 *)
 module Task7 = OcamlProblems__Task7
+
+
+(** @canonical OcamlProblems.Task8 *)
+module Task8 = OcamlProblems__Task8

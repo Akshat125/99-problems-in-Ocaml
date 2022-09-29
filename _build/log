@@ -1,9 +1,9 @@
 # dune build
 # OCAMLPARAM: unset
 # Shared cache: disabled
-# Workspace root: /home/akshat/99-problems-in-Ocaml
+# Workspace root: /Users/akshat/VS_Projects/99-problems-in-Ocaml
 # Auto-detected concurrency: 8
-$ /home/akshat/.opam/4.14.0/bin/ocamlc.opt -config > /tmp/dune_0898fe_output
+$ /Users/akshat/.opam/4.14.0/bin/ocamlc.opt -config > /var/folders/hc/xcxqtp9n6pl665jf8bb5860r0000gn/T/dune_3acfae_output
 # Dune context:
 #  { name = "default"
 #  ; kind = "default"
@@ -12,73 +12,74 @@ $ /home/akshat/.opam/4.14.0/bin/ocamlc.opt -config > /tmp/dune_0898fe_output
 #  ; for_host = None
 #  ; fdo_target_exe = None
 #  ; build_dir = "default"
-#  ; toplevel_path = Some External "/home/akshat/.opam/4.14.0/lib/toplevel"
-#  ; ocaml_bin = External "/home/akshat/.opam/4.14.0/bin"
-#  ; ocaml = Ok External "/home/akshat/.opam/4.14.0/bin/ocaml"
-#  ; ocamlc = External "/home/akshat/.opam/4.14.0/bin/ocamlc.opt"
-#  ; ocamlopt = Ok External "/home/akshat/.opam/4.14.0/bin/ocamlopt.opt"
-#  ; ocamldep = Ok External "/home/akshat/.opam/4.14.0/bin/ocamldep.opt"
-#  ; ocamlmklib = Ok External "/home/akshat/.opam/4.14.0/bin/ocamlmklib.opt"
+#  ; toplevel_path = Some External "/Users/akshat/.opam/4.14.0/lib/toplevel"
+#  ; ocaml_bin = External "/Users/akshat/.opam/4.14.0/bin"
+#  ; ocaml = Ok External "/Users/akshat/.opam/4.14.0/bin/ocaml"
+#  ; ocamlc = External "/Users/akshat/.opam/4.14.0/bin/ocamlc.opt"
+#  ; ocamlopt = Ok External "/Users/akshat/.opam/4.14.0/bin/ocamlopt.opt"
+#  ; ocamldep = Ok External "/Users/akshat/.opam/4.14.0/bin/ocamldep.opt"
+#  ; ocamlmklib = Ok External "/Users/akshat/.opam/4.14.0/bin/ocamlmklib.opt"
 #  ; env =
 #      map
-#        { "DUNE_OCAML_HARDCODED" : "/home/akshat/.opam/4.14.0/lib"
-#        ; "DUNE_OCAML_STDLIB" : "/home/akshat/.opam/4.14.0/lib/ocaml"
-#        ; "DUNE_SOURCEROOT" : "/home/akshat/99-problems-in-Ocaml"
-#        ; "INSIDE_DUNE" : "/home/akshat/99-problems-in-Ocaml/_build/default"
+#        { "DUNE_OCAML_HARDCODED" : "/Users/akshat/.opam/4.14.0/lib"
+#        ; "DUNE_OCAML_STDLIB" : "/Users/akshat/.opam/4.14.0/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" : "/Users/akshat/VS_Projects/99-problems-in-Ocaml"
+#        ; "INSIDE_DUNE" :
+#            "/Users/akshat/VS_Projects/99-problems-in-Ocaml/_build/default"
+#        ; "MANPATH" :
+#            "/Users/akshat/VS_Projects/99-problems-in-Ocaml/_build/install/default/bin"
 #        ; "OCAMLFIND_IGNORE_DUPS_IN" :
-#            "/home/akshat/99-problems-in-Ocaml/_build/install/default/lib"
+#            "/Users/akshat/VS_Projects/99-problems-in-Ocaml/_build/install/default/lib"
 #        ; "OCAMLPATH" :
-#            "/home/akshat/99-problems-in-Ocaml/_build/install/default/lib"
+#            "/Users/akshat/VS_Projects/99-problems-in-Ocaml/_build/install/default/lib"
 #        ; "OCAMLTOP_INCLUDE_PATH" :
-#            "/home/akshat/99-problems-in-Ocaml/_build/install/default/lib/toplevel"
+#            "/Users/akshat/VS_Projects/99-problems-in-Ocaml/_build/install/default/lib/toplevel"
 #        ; "OCAML_COLOR" : "always"
 #        ; "OPAMCOLOR" : "always"
 #        }
-#  ; findlib_paths = [ External "/home/akshat/.opam/4.14.0/lib" ]
+#  ; findlib_paths = [ External "/Users/akshat/.opam/4.14.0/lib" ]
 #  ; arch_sixtyfour = true
 #  ; natdynlink_supported = true
 #  ; supports_shared_libraries = true
 #  ; ocaml_config =
 #      { version = "4.14.0"
-#      ; standard_library_default = "/home/akshat/.opam/4.14.0/lib/ocaml"
-#      ; standard_library = "/home/akshat/.opam/4.14.0/lib/ocaml"
+#      ; standard_library_default = "/Users/akshat/.opam/4.14.0/lib/ocaml"
+#      ; standard_library = "/Users/akshat/.opam/4.14.0/lib/ocaml"
 #      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
 #      ; ccomp_type = "cc"
-#      ; c_compiler = "gcc"
+#      ; c_compiler = "cc"
 #      ; ocamlc_cflags =
-#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-pthread"; "-fPIC" ]
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-pthread" ]
 #      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64" ]
 #      ; ocamlopt_cflags =
-#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-pthread"; "-fPIC" ]
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-pthread" ]
 #      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64" ]
 #      ; bytecomp_c_compiler =
-#          [ "gcc"
+#          [ "cc"
 #          ; "-O2"
 #          ; "-fno-strict-aliasing"
 #          ; "-fwrapv"
 #          ; "-pthread"
-#          ; "-fPIC"
 #          ; "-D_FILE_OFFSET_BITS=64"
 #          ]
 #      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
 #      ; native_c_compiler =
-#          [ "gcc"
+#          [ "cc"
 #          ; "-O2"
 #          ; "-fno-strict-aliasing"
 #          ; "-fwrapv"
 #          ; "-pthread"
-#          ; "-fPIC"
 #          ; "-D_FILE_OFFSET_BITS=64"
 #          ]
 #      ; native_c_libraries = [ "-lm" ]
 #      ; native_pack_linker = [ "ld"; "-r"; "-o" ]
 #      ; cc_profile = []
-#      ; architecture = "amd64"
+#      ; architecture = "arm64"
 #      ; model = "default"
 #      ; int_size = 63
 #      ; word_size = 64
-#      ; system = "linux"
-#      ; asm = [ "as" ]
+#      ; system = "macosx"
+#      ; asm = [ "cc"; "-c"; "-Wno-trigraphs" ]
 #      ; asm_cfi_supported = true
 #      ; with_frame_pointers = false
 #      ; ext_exe = ""
@@ -89,8 +90,8 @@ $ /home/akshat/.opam/4.14.0/bin/ocamlc.opt -config > /tmp/dune_0898fe_output
 #      ; os_type = "Unix"
 #      ; default_executable_name = "a.out"
 #      ; systhread_supported = true
-#      ; host = "x86_64-pc-linux-gnu"
-#      ; target = "x86_64-pc-linux-gnu"
+#      ; host = "aarch64-apple-darwin21.6.0"
+#      ; target = "aarch64-apple-darwin21.6.0"
 #      ; profiling = false
 #      ; flambda = false
 #      ; spacetime = false
@@ -110,53 +111,3 @@ $ /home/akshat/.opam/4.14.0/bin/ocamlc.opt -config > /tmp/dune_0898fe_output
 #      ; windows_unicode = false
 #      }
 #  }
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -bin-annot -I src/.ocamlProblems.objs/byte -no-alias-deps -opaque -o src/.ocamlProblems.objs/byte/ocamlProblems.cmo -c -impl src/ocamlProblems.ml-gen)
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamldep.opt -modules -impl src/task7.ml) > _build/default/src/.ocamlProblems.objs/task7.ml.d
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamldep.opt -modules -impl src/task2.ml) > _build/default/src/.ocamlProblems.objs/task2.ml.d
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamldep.opt -modules -impl src/task4.ml) > _build/default/src/.ocamlProblems.objs/task4.ml.d
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamldep.opt -modules -impl src/task3.ml) > _build/default/src/.ocamlProblems.objs/task3.ml.d
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamldep.opt -modules -impl src/task5.ml) > _build/default/src/.ocamlProblems.objs/task5.ml.d
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamldep.opt -modules -impl src/task6.ml) > _build/default/src/.ocamlProblems.objs/task6.ml.d
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamldep.opt -modules -impl src/task1.ml) > _build/default/src/.ocamlProblems.objs/task1.ml.d
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -I src/.ocamlProblems.objs/byte -I src/.ocamlProblems.objs/native -intf-suffix .ml-gen -no-alias-deps -opaque -o src/.ocamlProblems.objs/native/ocamlProblems.cmx -c -impl src/ocamlProblems.ml-gen)
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -27-33 -g -bin-annot -I src/.ocamlProblems.objs/byte -no-alias-deps -opaque -open OcamlProblems -o src/.ocamlProblems.objs/byte/ocamlProblems__Task7.cmo -c -impl src/task7.ml)
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -27-33 -g -bin-annot -I src/.ocamlProblems.objs/byte -no-alias-deps -opaque -open OcamlProblems -o src/.ocamlProblems.objs/byte/ocamlProblems__Task4.cmo -c -impl src/task4.ml)
-> File "src/task4.ml", line 5, characters 8-9:
-> 5 |       | a::b -> helper_method b (acc+1)
->             ^
-> Warning 27 [unused-var-strict]: unused variable a.
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -27-33 -g -bin-annot -I src/.ocamlProblems.objs/byte -no-alias-deps -opaque -open OcamlProblems -o src/.ocamlProblems.objs/byte/ocamlProblems__Task2.cmo -c -impl src/task2.ml)
-> File "src/task2.ml", line 4, characters 6-7:
-> 4 |     | a::b -> last_two b
->           ^
-> Warning 27 [unused-var-strict]: unused variable a.
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -27-33 -g -bin-annot -I src/.ocamlProblems.objs/byte -no-alias-deps -opaque -open OcamlProblems -o src/.ocamlProblems.objs/byte/ocamlProblems__Task3.cmo -c -impl src/task3.ml)
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -27-33 -g -bin-annot -I src/.ocamlProblems.objs/byte -no-alias-deps -opaque -open OcamlProblems -o src/.ocamlProblems.objs/byte/ocamlProblems__Task5.cmo -c -impl src/task5.ml)
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -27-33 -g -bin-annot -I src/.ocamlProblems.objs/byte -no-alias-deps -opaque -open OcamlProblems -o src/.ocamlProblems.objs/byte/ocamlProblems__Task1.cmo -c -impl src/task1.ml)
-> File "src/task1.ml", line 4, characters 6-7:
-> 4 |     | a::b -> last b
->           ^
-> Warning 27 [unused-var-strict]: unused variable a.
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -27-33 -g -bin-annot -I src/.ocamlProblems.objs/byte -no-alias-deps -opaque -open OcamlProblems -o src/.ocamlProblems.objs/byte/ocamlProblems__Task6.cmo -c -impl src/task6.ml)
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -27-33 -g -I src/.ocamlProblems.objs/byte -I src/.ocamlProblems.objs/native -intf-suffix .ml -no-alias-deps -opaque -open OcamlProblems -o src/.ocamlProblems.objs/native/ocamlProblems__Task4.cmx -c -impl src/task4.ml)
-> File "src/task4.ml", line 5, characters 8-9:
-> 5 |       | a::b -> helper_method b (acc+1)
->             ^
-> Warning 27 [unused-var-strict]: unused variable a.
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -27-33 -g -I src/.ocamlProblems.objs/byte -I src/.ocamlProblems.objs/native -intf-suffix .ml -no-alias-deps -opaque -open OcamlProblems -o src/.ocamlProblems.objs/native/ocamlProblems__Task2.cmx -c -impl src/task2.ml)
-> File "src/task2.ml", line 4, characters 6-7:
-> 4 |     | a::b -> last_two b
->           ^
-> Warning 27 [unused-var-strict]: unused variable a.
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -27-33 -g -a -o src/ocamlProblems.cma src/.ocamlProblems.objs/byte/ocamlProblems.cmo src/.ocamlProblems.objs/byte/ocamlProblems__Task7.cmo src/.ocamlProblems.objs/byte/ocamlProblems__Task6.cmo src/.ocamlProblems.objs/byte/ocamlProblems__Task5.cmo src/.ocamlProblems.objs/byte/ocamlProblems__Task4.cmo src/.ocamlProblems.objs/byte/ocamlProblems__Task3.cmo src/.ocamlProblems.objs/byte/ocamlProblems__Task2.cmo src/.ocamlProblems.objs/byte/ocamlProblems__Task1.cmo)
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -27-33 -g -I src/.ocamlProblems.objs/byte -I src/.ocamlProblems.objs/native -intf-suffix .ml -no-alias-deps -opaque -open OcamlProblems -o src/.ocamlProblems.objs/native/ocamlProblems__Task7.cmx -c -impl src/task7.ml)
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -27-33 -g -I src/.ocamlProblems.objs/byte -I src/.ocamlProblems.objs/native -intf-suffix .ml -no-alias-deps -opaque -open OcamlProblems -o src/.ocamlProblems.objs/native/ocamlProblems__Task3.cmx -c -impl src/task3.ml)
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -27-33 -g -I src/.ocamlProblems.objs/byte -I src/.ocamlProblems.objs/native -intf-suffix .ml -no-alias-deps -opaque -open OcamlProblems -o src/.ocamlProblems.objs/native/ocamlProblems__Task5.cmx -c -impl src/task5.ml)
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -27-33 -g -I src/.ocamlProblems.objs/byte -I src/.ocamlProblems.objs/native -intf-suffix .ml -no-alias-deps -opaque -open OcamlProblems -o src/.ocamlProblems.objs/native/ocamlProblems__Task1.cmx -c -impl src/task1.ml)
-> File "src/task1.ml", line 4, characters 6-7:
-> 4 |     | a::b -> last b
->           ^
-> Warning 27 [unused-var-strict]: unused variable a.
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -27-33 -g -I src/.ocamlProblems.objs/byte -I src/.ocamlProblems.objs/native -intf-suffix .ml -no-alias-deps -opaque -open OcamlProblems -o src/.ocamlProblems.objs/native/ocamlProblems__Task6.cmx -c -impl src/task6.ml)
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -27-33 -g -a -o src/ocamlProblems.cmxa src/.ocamlProblems.objs/native/ocamlProblems.cmx src/.ocamlProblems.objs/native/ocamlProblems__Task7.cmx src/.ocamlProblems.objs/native/ocamlProblems__Task6.cmx src/.ocamlProblems.objs/native/ocamlProblems__Task5.cmx src/.ocamlProblems.objs/native/ocamlProblems__Task4.cmx src/.ocamlProblems.objs/native/ocamlProblems__Task3.cmx src/.ocamlProblems.objs/native/ocamlProblems__Task2.cmx src/.ocamlProblems.objs/native/ocamlProblems__Task1.cmx)
-$ (cd _build/default && /home/akshat/.opam/4.14.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -27-33 -g -shared -linkall -I src -o src/ocamlProblems.cmxs src/ocamlProblems.cmxa)
